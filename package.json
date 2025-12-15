@@ -1,0 +1,20 @@
+{
+  "name": "fast-delete-powershell",
+  "version": "1.0.0",
+  "description": "A powershell script that uses powershell 7 to delete multiple files or folders without scanning.",
+  "main": "index.js",
+  "scripts": {
+    "build": "Invoke-ps2exe -inputFile \".\\index.ps1\" -outputFile \".\\output\\fast_delete.exe\" -x64 -UNICODEEncoding -iconFile \".\\src\\assets\\icon.ico\" -title 'Fast delete no scan' -copyright 'anaseeem' -longPaths"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaseeem/fast-delete-powershell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaseeem/fast-delete-powershell/issues"
+  },
+  "homepage": "https://github.com/anaseeem/fast-delete-powershell#readme"
+}
